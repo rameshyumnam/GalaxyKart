@@ -327,7 +327,7 @@ nav ul li .fa-user {
     padding: 10px;
     max-width: 250px;
     width: 100%;
-    flex: 1 1 200px;
+    flex: 1 1 220px;
     position: relative;
     background-color: #e0e0e0;
     border-radius: 4px;
@@ -694,6 +694,9 @@ nav ul li .fa-user {
     #home .text .reviews div p {
         font-size: 15px;
     }
+    .featured .products .product-cart {
+        flex: 1 1 190px;
+    }
 }
 
 @media (max-width: 980px) {
@@ -794,7 +797,14 @@ nav ul li .fa-user {
     .featured .products .product-cart ul li {
         font-size: 16px;
     }
+    .featured .products .product-cart .wishlist {
+        right: 5px;
+        top: 5px;
+    }
     .featured .products .product-cart .cart {
+        top: 35px;
+        right: 5px;
+        bottom: 100%;
         font-size: 18px;
     }
 }
@@ -905,21 +915,6 @@ nav ul li .fa-user {
     }
     .featured .products {
         justify-content: center;
-    }
-    .featured .products .product-cart {
-        max-width: 280px;
-    }
-    .featured .products .product-cart .wishlist {
-        right: 5px;
-        top: 5px;
-    }
-    .featured .products .product-cart .cart {
-        top: 35px;
-        right: 5px;
-        bottom: 100%;
-    }
-    .featured .products .product-cart .cart:hover {
-        color: #0046a1;
     }
     .review-section {
         padding: 50px 20px;
