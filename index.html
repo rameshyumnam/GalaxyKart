@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fredoka:wdth,wght@75,300&family=Great+Vibes&family=Lobster&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playball&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Head Section -->
+    <nav>
+        <div class="logo-container">
+            <i id="bar-icon" class="fa-solid fa-bars"></i>
+            <h1 class="logo">Galaxy<span>Kart</span></h1>
+        </div>
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li class="magnifier"><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-regular fa-user"></i></li>
+        </ul>
+        <ul class="toggle-bar">
+            <p id="exit"><i class="fa-solid fa-xmark"></i></p>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-layer-group"></i>
+                <a href="#">Categories</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-address-card"></i>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-address-book"></i>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </nav> 
+
+    <!-- Home -->
+     <section id="home">
+        <div class="text">
+            <h1>GALAXY KART</h1>
+            <h2>Where Innovation Meets Style</h2>
+            <p>
+                Discover the future of technology at Galaxy Kart. From smart devices to powerful gadgets, 
+                explore innovations designed to elevate your lifestyle and ignite your imagination.
+            </p>
+            <div class="link">
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                <a href="#">Follow Us On Instagram</a>
+            </div>
+            <div class="reviews">
+                <div>
+                    <h3>5,000+</h3>
+                    <p>Products</p>
+                </div>
+                <div>
+                    <h3>20,000+</h3>
+                    <p>Delivery</p>
+                </div>
+                <div>
+                    <h3>2,500+</h3>
+                    <p>Ratings</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img id="image" src="" alt="image">
+        </div>
+     </section>
+
+     <section class="highlight">
+        <div>
+            <i class="fa-solid fa-truck"></i>
+            <p>Fast & Free Shipping</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-shop"></i>
+            <p>Easy To Shop</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-user-tie"></i>
+            <p>24/7 Support</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-right-left"></i>
+            <p>Hassle Free Returns</p>
+        </div>
+     </section>
+
+     <section class="featured">
+        <h1>Featured Products</h1>
+        <div class="products">
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="Samsung-Galaxy-S24-Ultra-Titanium-Violet-Smartphone-transparent-PNG-image.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy S24 Ultra</h2>
+                    <h3>₹1,17,000 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹1,30,00</span> <span style="color: #006809; font-size: 14px;">10% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="galaxy note 20.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy Note 20</h2>
+                    <h3>₹75,650 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹89,000</span> <span style="color: #006809; font-size: 14px;">15% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="ear buds.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy Ear Buds 3 Pro</h2>
+                    <h3>₹9,500 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹10,000</span> <span style="color: #006809; font-size: 14px;">5% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="Samsung GX-1S DSLR Camera.png" alt="image">
+                <div>
+                    <h2>Samsung GX-1s DSLR Camera</h2>
+                    <h3>₹19,200 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹24,000</span> <span style="color: #006809; font-size: 14px;">20% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="laptop book4.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy Book4 Pro</h2>
+                    <h3>₹72,100 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹1,03,000</span> <span style="color: #006809; font-size: 14px;">30% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="s23.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy S23 Ultra</h2>
+                    <h3>₹1,07,999 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹1,49,999</span> <span style="color: #006809; font-size: 14px;">28% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="Samsung DP710A4M-L01US All-In-One Desktop Computer.png" alt="image">
+                <div>
+                    <h2>Samsung DP710A4M-L01US Desktop Computer</h2>
+                    <h3>₹83,300 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹98,999</span> <span style="color: #006809; font-size: 14px;">15% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="s22.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy S22 Ultra</h2>
+                    <h3>₹69,750 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹92,999</span> <span style="color: #006809; font-size: 14px;">25% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="SGNics Over-Ear Headphones.png" alt="image">
+                <div>
+                    <h2>SGNics Over-Ear Headphones</h2>
+                    <h3>₹8,999 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹9,999</span> <span style="color: #006809; font-size: 14px;">10% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+
+            <div class="product-cart">
+                <p class="wishlist"><i class="fa-regular fa-heart"></i></p>
+                <img src="Samsung Galaxy 7 Watch.png" alt="image">
+                <div>
+                    <h2>Samsung Galaxy 7 Watch</h2>
+                    <h3>₹29,999 <span style="color: #555555; text-decoration: line-through; font-size: 14px;">₹39,999</span> <span style="color: #006809; font-size: 14px;">25% Off</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                        <li><i class="fa-solid fa-star" style="color: #a0a0a0;"></i></li>
+                    </ul>
+                    <p class="cart"><i class="fa-solid fa-cart-plus"></i></p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Testimonials -->
+     <section class="testimonial">
+        <h1>Don't take our word,</h1>
+        <h1>see what our clients say</h1>
+        <div class="review-section">
+            <div class="review">
+                <img src="Amit.jpg" alt="image">
+                <article>
+                    <p>
+                        "I ordered a pair of wireless earbuds from GalaxyKart, and they arrived in just two days. 
+                        The sound quality is amazing, and the price was unbeatable. Great experience overall!"
+                    </p>
+                    <div class="client">
+                        <h3>Amit Verma</h3>
+                        <p>Mumbai, Maharashtra</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="review">
+                <img src="priya.jpg" alt="image">
+                <article>
+                    <p>
+                        "Had a small issue with my payment, but the GalaxyKart team resolved it within minutes. 
+                        Very friendly and professional. I’ll definitely shop again."
+                    </p>
+                    <div class="client">
+                        <h3>Priya Sinha</h3>
+                        <p>Patna, Bihar</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="review">
+                <img src="manoj.jpg" alt="image">
+                <article>
+                    <p>
+                        "I ordered a mobile phone and was worried about damage in transit. 
+                        But it came in strong, secure packaging—perfect condition. Highly recommend GalaxyKart."
+                    </p>
+                    <div class="client">
+                        <h3>Manoj Kumar</h3>
+                        <p>Jaipur, Rajasthan</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+     </section>
+
+    <!-- FAQ -->
+     <section class="faq">
+        <h1>Got Questions? We've</h1>
+        <h1>Got Answers!</h1>
+        <div class="faq-container">
+            <div class="faq-data">
+                <div class="question">
+                    <h2>What products are available on GalaxyKart?</h2>
+                    <h3 class="arrow"><i class="fa-solid fa-caret-down"></i></h3>
+                </div>
+                <div class="answer">
+                    <p>
+                        GalaxyKart offers a wide range of Samsung products including smartphones, smartwatches, tablets, TVs, soundbars, 
+                        smart appliances, and accessories—all 100% genuine and sourced from authorized suppliers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-data">
+                <div class="question">
+                    <h2>Are the products on GalaxyKart original and under warranty?</h2>
+                    <h3 class="arrow"><i class="fa-solid fa-caret-down"></i></h3>
+                </div>
+                <div class="answer">
+                    <p>
+                        Yes, all Samsung products sold on GalaxyKart are 100% original and come with official 
+                        manufacturer warranty, service support, and eligible for Samsung Care+ (where applicable).
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-data">
+                <div class="question">
+                    <h2>How long does delivery take after placing an order?</h2>
+                    <h3 class="arrow"><i class="fa-solid fa-caret-down"></i></h3>
+                </div>
+                <div class="answer">
+                    <p>
+                        Orders are typically processed within 24 hours. Delivery usually takes 2–7 working days 
+                        depending on your location. Express delivery is available in select cities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-data">
+                <div class="question">
+                    <h2>What payment options do you accept?</h2>
+                    <h3 class="arrow"><i class="fa-solid fa-caret-down"></i></h3>
+                </div>
+                <div class="answer">
+                    <p>
+                        We accept all major payment methods: Credit/Debit cards, UPI, Net Banking, 
+                        EMI options (including No Cost EMI on select products), and Cash on Delivery (for eligible PIN codes).
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-data">
+                <div class="question">
+                    <h2>Can I return or exchange a product after purchase?</h2>
+                    <h3 class="arrow"><i class="fa-solid fa-caret-down"></i></h3>
+                </div>
+                <div class="answer">
+                    <p>
+                        Yes, returns or exchanges are accepted within 7 days of delivery for unused, unopened items. 
+                        For defective products, warranty and replacement policies apply as per Samsung’s service terms.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Subscribe -->
+     <section class="subscribe">
+        <h1>
+            Smart deals. Straight to your inbox.
+        </h1>
+        <p>
+            Be the first to know about new arrivals, price drops, and flash sales.
+        </p>
+        <div class="subscribe-field">
+            <input type="email" placeholder="Email">
+            <button type="submit">Subscribe</button>
+        </div>
+     </section>
+
+    <!-- Logo -->
+     <section class="footer-logo">
+        <h1 style="color: #000000;">Galaxy<span style="color: #585858;">Kart</span><span style="color: #000000;">.</span></h1>
+     </section>
+
+    <!-- Footer -->
+     <footer class="footer-wrapper">
+        <div class="footer-container">
+            <h1>About</h1>
+            <ul>
+                <li>Our Company</li>
+                <li>Our Story</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <h1>Information</h1>
+            <ul>
+                <li>Delivery Information</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Return</li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <h1>Support</h1>
+            <ul>
+                <li>Contact Us</li>
+                <li>Help</li>
+                <li>FAQ</li>
+                <li>Checkout</li>
+            </ul>
+        </div>
+     </footer>
+
+     <footer class="footer">
+        <p style="font-weight: 300;">Copyright&copy;2025 GalaxyKart. All RightsReserved.</p>
+        <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-x-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+        </ul>
+        <ul>
+            <li><img src="visa.png" alt="image"></li>
+            <li><img src="mastercard.png" alt="image"></li>
+            <li><img src="rupay.png" alt="image"></li>
+            <li><img src="gpay.png" alt="image"></li>
+        </ul>
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
